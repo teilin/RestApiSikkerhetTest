@@ -10,6 +10,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestApi.Security.Benchmarks", "RestApi.Security.Benchmarks\RestApi.Security.Benchmarks.csproj", "{7A16D7EE-BEC2-4A80-B1B3-9A78D4B122BA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{CF47AF0A-385A-433D-97EE-F78B22B778A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF47AF0A-385A-433D-97EE-F78B22B778A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF47AF0A-385A-433D-97EE-F78B22B778A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A16D7EE-BEC2-4A80-B1B3-9A78D4B122BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A16D7EE-BEC2-4A80-B1B3-9A78D4B122BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A16D7EE-BEC2-4A80-B1B3-9A78D4B122BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A16D7EE-BEC2-4A80-B1B3-9A78D4B122BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

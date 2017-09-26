@@ -1,0 +1,301 @@
+// ***** BenchmarkRunner: Start   *****
+// Found benchmarks:
+//   PlainTextVsEncryptedString.PlainText: DefaultJob
+//   PlainTextVsEncryptedString.EncryptedString: DefaultJob
+
+// Validating benchmarks:
+Assembly RestApi.Security.Benchmarks which defines benchmarks references non-optimized RestApi.Security
+Assembly RestApi.Security.Benchmarks which defines benchmarks is non-optimized
+// **************************
+// Benchmark: PlainTextVsEncryptedString.PlainText: DefaultJob
+// *** Generate *** 
+// Result = Success
+// BinariesDirectoryPath = /Users/teis/Projects/RestApi.Security/RestApi.Security.Benchmarks/bin/Debug/netcoreapp2.0/581762ea-0e8f-421e-a891-5b5dbfa555fe/bin/Release/netcoreapp2.0
+
+// *** Build ***
+// dotnet restore took 2.67s
+// dotnet build took 8.93s
+// Result = Success
+
+// *** Execute ***
+// Launch: 1 / 1
+Failed to set up high priority. Make sure you have the right permissions. Message: Permission denied
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 2.0.0 (Framework 4.6.00001.0), 64bit RyuJIT
+// GC=Concurrent Workstation
+// Job: DefaultJob
+
+Pilot  1: 16 op, 450000.00 ns, 28.1250 us/op
+Pilot  2: 32 op, 60000.00 ns, 1.8750 us/op
+Pilot  3: 64 op, 85000.00 ns, 1.3281 us/op
+Pilot  4: 128 op, 167000.00 ns, 1.3047 us/op
+Pilot  5: 256 op, 319000.00 ns, 1.2461 us/op
+Pilot  6: 512 op, 758000.00 ns, 1.4805 us/op
+Pilot  7: 1024 op, 1591000.00 ns, 1.5537 us/op
+Pilot  8: 2048 op, 3362000.00 ns, 1.6416 us/op
+Pilot  9: 4096 op, 5425000.00 ns, 1.3245 us/op
+Pilot 10: 8192 op, 11307000.00 ns, 1.3802 us/op
+Pilot 11: 16384 op, 24384000.00 ns, 1.4883 us/op
+Pilot 12: 32768 op, 55592000.00 ns, 1.6965 us/op
+Pilot 13: 65536 op, 91336000.00 ns, 1.3937 us/op
+Pilot 14: 131072 op, 182166000.00 ns, 1.3898 us/op
+Pilot 15: 262144 op, 368882000.00 ns, 1.4072 us/op
+Pilot 16: 524288 op, 715770000.00 ns, 1.3652 us/op
+
+IdleWarmup  1: 524288 op, 2028000.00 ns, 3.8681 ns/op
+IdleWarmup  2: 524288 op, 2061000.00 ns, 3.9310 ns/op
+IdleWarmup  3: 524288 op, 2014000.00 ns, 3.8414 ns/op
+IdleWarmup  4: 524288 op, 2024000.00 ns, 3.8605 ns/op
+IdleWarmup  5: 524288 op, 2014000.00 ns, 3.8414 ns/op
+IdleWarmup  6: 524288 op, 2024000.00 ns, 3.8605 ns/op
+
+IdleTarget  1: 524288 op, 2024000.00 ns, 3.8605 ns/op
+IdleTarget  2: 524288 op, 2024000.00 ns, 3.8605 ns/op
+IdleTarget  3: 524288 op, 2014000.00 ns, 3.8414 ns/op
+IdleTarget  4: 524288 op, 2125000.00 ns, 4.0531 ns/op
+IdleTarget  5: 524288 op, 2328000.00 ns, 4.4403 ns/op
+IdleTarget  6: 524288 op, 2131000.00 ns, 4.0646 ns/op
+IdleTarget  7: 524288 op, 2699000.00 ns, 5.1479 ns/op
+IdleTarget  8: 524288 op, 2144000.00 ns, 4.0894 ns/op
+IdleTarget  9: 524288 op, 2260000.00 ns, 4.3106 ns/op
+IdleTarget 10: 524288 op, 2146000.00 ns, 4.0932 ns/op
+IdleTarget 11: 524288 op, 2206000.00 ns, 4.2076 ns/op
+IdleTarget 12: 524288 op, 2074000.00 ns, 3.9558 ns/op
+IdleTarget 13: 524288 op, 2187000.00 ns, 4.1714 ns/op
+IdleTarget 14: 524288 op, 2024000.00 ns, 3.8605 ns/op
+IdleTarget 15: 524288 op, 2015000.00 ns, 3.8433 ns/op
+IdleTarget 16: 524288 op, 2021000.00 ns, 3.8548 ns/op
+IdleTarget 17: 524288 op, 1957000.00 ns, 3.7327 ns/op
+IdleTarget 18: 524288 op, 2073000.00 ns, 3.9539 ns/op
+
+MainWarmup  1: 524288 op, 724041000.00 ns, 1.3810 us/op
+MainWarmup  2: 524288 op, 704686000.00 ns, 1.3441 us/op
+MainWarmup  3: 524288 op, 695941000.00 ns, 1.3274 us/op
+MainWarmup  4: 524288 op, 726508000.00 ns, 1.3857 us/op
+MainWarmup  5: 524288 op, 692819000.00 ns, 1.3214 us/op
+MainWarmup  6: 524288 op, 701467000.00 ns, 1.3379 us/op
+MainWarmup  7: 524288 op, 705627000.00 ns, 1.3459 us/op
+MainWarmup  8: 524288 op, 710219000.00 ns, 1.3546 us/op
+MainWarmup  9: 524288 op, 715296000.00 ns, 1.3643 us/op
+MainWarmup 10: 524288 op, 708023000.00 ns, 1.3504 us/op
+
+MainTarget  1: 524288 op, 700388000.00 ns, 1.3359 us/op
+MainTarget  2: 524288 op, 706733000.00 ns, 1.3480 us/op
+MainTarget  3: 524288 op, 705910000.00 ns, 1.3464 us/op
+MainTarget  4: 524288 op, 701367000.00 ns, 1.3378 us/op
+MainTarget  5: 524288 op, 705858000.00 ns, 1.3463 us/op
+MainTarget  6: 524288 op, 685092000.00 ns, 1.3067 us/op
+MainTarget  7: 524288 op, 695942000.00 ns, 1.3274 us/op
+MainTarget  8: 524288 op, 699325000.00 ns, 1.3339 us/op
+MainTarget  9: 524288 op, 710397000.00 ns, 1.3550 us/op
+MainTarget 10: 524288 op, 706131000.00 ns, 1.3468 us/op
+MainTarget 11: 524288 op, 683880000.00 ns, 1.3044 us/op
+MainTarget 12: 524288 op, 682562000.00 ns, 1.3019 us/op
+MainTarget 13: 524288 op, 678628000.00 ns, 1.2944 us/op
+MainTarget 14: 524288 op, 697682000.00 ns, 1.3307 us/op
+MainTarget 15: 524288 op, 696070000.00 ns, 1.3276 us/op
+
+Result  1: 524288 op, 698251777.78 ns, 1.3318 us/op
+Result  2: 524288 op, 704596777.78 ns, 1.3439 us/op
+Result  3: 524288 op, 703773777.78 ns, 1.3423 us/op
+Result  4: 524288 op, 699230777.78 ns, 1.3337 us/op
+Result  5: 524288 op, 703721777.78 ns, 1.3422 us/op
+Result  6: 524288 op, 682955777.78 ns, 1.3026 us/op
+Result  7: 524288 op, 693805777.78 ns, 1.3233 us/op
+Result  8: 524288 op, 697188777.78 ns, 1.3298 us/op
+Result  9: 524288 op, 708260777.78 ns, 1.3509 us/op
+Result 10: 524288 op, 703994777.78 ns, 1.3428 us/op
+Result 11: 524288 op, 681743777.78 ns, 1.3003 us/op
+Result 12: 524288 op, 680425777.78 ns, 1.2978 us/op
+Result 13: 524288 op, 676491777.78 ns, 1.2903 us/op
+Result 14: 524288 op, 695545777.78 ns, 1.3266 us/op
+Result 15: 524288 op, 693933777.78 ns, 1.3236 us/op
+GC:  5805 0 0 0 7864320
+
+
+Mean = 1.3255 us, StdErr = 0.0049 us (0.37%); N = 15, StdDev = 0.0192 us
+Min = 1.2903 us, Q1 = 1.3026 us, Median = 1.3298 us, Q3 = 1.3423 us, Max = 1.3509 us
+IQR = 0.0397 us, LowerFence = 1.2431 us, UpperFence = 1.4019 us
+ConfidenceInterval = [1.3050 us; 1.3460 us] (CI 99.9%), Margin = 0.0205 us (1.55% of Mean)
+Skewness = -0.51, Kurtosis = 1.77
+
+
+// **************************
+// Benchmark: PlainTextVsEncryptedString.EncryptedString: DefaultJob
+// *** Generate *** 
+// Result = Success
+// BinariesDirectoryPath = /Users/teis/Projects/RestApi.Security/RestApi.Security.Benchmarks/bin/Debug/netcoreapp2.0/3aa450b3-cc44-4510-bd05-88caf5947154/bin/Release/netcoreapp2.0
+
+// *** Build ***
+// dotnet restore took 1.93s
+// dotnet build took 5.02s
+// Result = Success
+
+// *** Execute ***
+// Launch: 1 / 1
+Failed to set up high priority. Make sure you have the right permissions. Message: Permission denied
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 2.0.0 (Framework 4.6.00001.0), 64bit RyuJIT
+// GC=Concurrent Workstation
+// Job: DefaultJob
+
+Pilot  1: 16 op, 754000.00 ns, 47.1250 us/op
+Pilot  2: 32 op, 932000.00 ns, 29.1250 us/op
+Pilot  3: 64 op, 1494000.00 ns, 23.3438 us/op
+Pilot  4: 128 op, 2375000.00 ns, 18.5547 us/op
+Pilot  5: 256 op, 4842000.00 ns, 18.9141 us/op
+Pilot  6: 512 op, 9720000.00 ns, 18.9844 us/op
+Pilot  7: 1024 op, 22168000.00 ns, 21.6484 us/op
+Pilot  8: 2048 op, 38164000.00 ns, 18.6348 us/op
+Pilot  9: 4096 op, 75379000.00 ns, 18.4031 us/op
+Pilot 10: 8192 op, 143718000.00 ns, 17.5437 us/op
+Pilot 11: 16384 op, 277502000.00 ns, 16.9374 us/op
+Pilot 12: 32768 op, 580883000.00 ns, 17.7271 us/op
+
+IdleWarmup  1: 32768 op, 130000.00 ns, 3.9673 ns/op
+IdleWarmup  2: 32768 op, 127000.00 ns, 3.8757 ns/op
+IdleWarmup  3: 32768 op, 127000.00 ns, 3.8757 ns/op
+IdleWarmup  4: 32768 op, 127000.00 ns, 3.8757 ns/op
+IdleWarmup  5: 32768 op, 126000.00 ns, 3.8452 ns/op
+IdleWarmup  6: 32768 op, 126000.00 ns, 3.8452 ns/op
+
+IdleTarget  1: 32768 op, 126000.00 ns, 3.8452 ns/op
+IdleTarget  2: 32768 op, 127000.00 ns, 3.8757 ns/op
+IdleTarget  3: 32768 op, 127000.00 ns, 3.8757 ns/op
+IdleTarget  4: 32768 op, 139000.00 ns, 4.2419 ns/op
+IdleTarget  5: 32768 op, 134000.00 ns, 4.0894 ns/op
+IdleTarget  6: 32768 op, 134000.00 ns, 4.0894 ns/op
+IdleTarget  7: 32768 op, 135000.00 ns, 4.1199 ns/op
+IdleTarget  8: 32768 op, 133000.00 ns, 4.0588 ns/op
+IdleTarget  9: 32768 op, 134000.00 ns, 4.0894 ns/op
+IdleTarget 10: 32768 op, 125000.00 ns, 3.8147 ns/op
+IdleTarget 11: 32768 op, 126000.00 ns, 3.8452 ns/op
+IdleTarget 12: 32768 op, 126000.00 ns, 3.8452 ns/op
+IdleTarget 13: 32768 op, 135000.00 ns, 4.1199 ns/op
+IdleTarget 14: 32768 op, 127000.00 ns, 3.8757 ns/op
+IdleTarget 15: 32768 op, 126000.00 ns, 3.8452 ns/op
+
+MainWarmup  1: 32768 op, 571905000.00 ns, 17.4532 us/op
+MainWarmup  2: 32768 op, 623262000.00 ns, 19.0204 us/op
+MainWarmup  3: 32768 op, 556188000.00 ns, 16.9735 us/op
+MainWarmup  4: 32768 op, 556650000.00 ns, 16.9876 us/op
+MainWarmup  5: 32768 op, 547540000.00 ns, 16.7096 us/op
+MainWarmup  6: 32768 op, 550209000.00 ns, 16.7910 us/op
+
+MainTarget  1: 32768 op, 548046000.00 ns, 16.7250 us/op
+MainTarget  2: 32768 op, 567933000.00 ns, 17.3319 us/op
+MainTarget  3: 32768 op, 554389000.00 ns, 16.9186 us/op
+MainTarget  4: 32768 op, 550758000.00 ns, 16.8078 us/op
+MainTarget  5: 32768 op, 557068000.00 ns, 17.0004 us/op
+MainTarget  6: 32768 op, 616310000.00 ns, 18.8083 us/op
+MainTarget  7: 32768 op, 758607000.00 ns, 23.1508 us/op
+MainTarget  8: 32768 op, 785537000.00 ns, 23.9727 us/op
+MainTarget  9: 32768 op, 594085000.00 ns, 18.1300 us/op
+MainTarget 10: 32768 op, 552334000.00 ns, 16.8559 us/op
+MainTarget 11: 32768 op, 581715000.00 ns, 17.7525 us/op
+MainTarget 12: 32768 op, 564133000.00 ns, 17.2160 us/op
+MainTarget 13: 32768 op, 586748000.00 ns, 17.9061 us/op
+MainTarget 14: 32768 op, 568274000.00 ns, 17.3423 us/op
+MainTarget 15: 32768 op, 587769000.00 ns, 17.9373 us/op
+MainTarget 16: 32768 op, 569771000.00 ns, 17.3880 us/op
+MainTarget 17: 32768 op, 567714000.00 ns, 17.3253 us/op
+MainTarget 18: 32768 op, 567817000.00 ns, 17.3284 us/op
+MainTarget 19: 32768 op, 578330000.00 ns, 17.6492 us/op
+MainTarget 20: 32768 op, 562822000.00 ns, 17.1760 us/op
+MainTarget 21: 32768 op, 564494000.00 ns, 17.2270 us/op
+MainTarget 22: 32768 op, 566366000.00 ns, 17.2841 us/op
+MainTarget 23: 32768 op, 563445000.00 ns, 17.1950 us/op
+MainTarget 24: 32768 op, 564196000.00 ns, 17.2179 us/op
+
+Result  1: 32768 op, 547915733.33 ns, 16.7211 us/op
+Result  2: 32768 op, 567802733.33 ns, 17.3280 us/op
+Result  3: 32768 op, 554258733.33 ns, 16.9146 us/op
+Result  4: 32768 op, 550627733.33 ns, 16.8038 us/op
+Result  5: 32768 op, 556937733.33 ns, 16.9964 us/op
+Result  6: 32768 op, 593954733.33 ns, 18.1261 us/op
+Result  7: 32768 op, 552203733.33 ns, 16.8519 us/op
+Result  8: 32768 op, 581584733.33 ns, 17.7486 us/op
+Result  9: 32768 op, 564002733.33 ns, 17.2120 us/op
+Result 10: 32768 op, 586617733.33 ns, 17.9022 us/op
+Result 11: 32768 op, 568143733.33 ns, 17.3384 us/op
+Result 12: 32768 op, 587638733.33 ns, 17.9333 us/op
+Result 13: 32768 op, 569640733.33 ns, 17.3841 us/op
+Result 14: 32768 op, 567583733.33 ns, 17.3213 us/op
+Result 15: 32768 op, 567686733.33 ns, 17.3244 us/op
+Result 16: 32768 op, 578199733.33 ns, 17.6453 us/op
+Result 17: 32768 op, 562691733.33 ns, 17.1720 us/op
+Result 18: 32768 op, 564363733.33 ns, 17.2230 us/op
+Result 19: 32768 op, 566235733.33 ns, 17.2801 us/op
+Result 20: 32768 op, 563314733.33 ns, 17.1910 us/op
+Result 21: 32768 op, 564065733.33 ns, 17.2139 us/op
+GC:  1944 0 0 0 786432
+
+
+Mean = 17.3158 us, StdErr = 0.0823 us (0.48%); N = 21, StdDev = 0.3771 us
+Min = 16.7211 us, Q1 = 17.0842 us, Median = 17.2801 us, Q3 = 17.5147 us, Max = 18.1261 us
+IQR = 0.4305 us, LowerFence = 16.4385 us, UpperFence = 18.1604 us
+ConfidenceInterval = [16.9990 us; 17.6326 us] (CI 99.9%), Margin = 0.3168 us (1.83% of Mean)
+Skewness = 0.48, Kurtosis = 2.4
+
+
+// ***** BenchmarkRunner: Finish  *****
+
+// * Export *
+  BenchmarkDotNet.Artifacts/results/PlainTextVsEncryptedString-report.csv
+  BenchmarkDotNet.Artifacts/results/PlainTextVsEncryptedString-report-github.md
+  BenchmarkDotNet.Artifacts/results/PlainTextVsEncryptedString-report.html
+
+// * Detailed results *
+PlainTextVsEncryptedString.PlainText: DefaultJob
+Runtime = .NET Core 2.0.0 (Framework 4.6.00001.0), 64bit RyuJIT; GC = Concurrent Workstation
+Mean = 1.3255 us, StdErr = 0.0049 us (0.37%); N = 15, StdDev = 0.0192 us
+Min = 1.2903 us, Q1 = 1.3026 us, Median = 1.3298 us, Q3 = 1.3423 us, Max = 1.3509 us
+IQR = 0.0397 us, LowerFence = 1.2431 us, UpperFence = 1.4019 us
+ConfidenceInterval = [1.3050 us; 1.3460 us] (CI 99.9%), Margin = 0.0205 us (1.55% of Mean)
+Skewness = -0.51, Kurtosis = 1.77
+
+
+PlainTextVsEncryptedString.EncryptedString: DefaultJob
+Runtime = .NET Core 2.0.0 (Framework 4.6.00001.0), 64bit RyuJIT; GC = Concurrent Workstation
+Mean = 17.3158 us, StdErr = 0.0823 us (0.48%); N = 21, StdDev = 0.3771 us
+Min = 16.7211 us, Q1 = 17.0842 us, Median = 17.2801 us, Q3 = 17.5147 us, Max = 18.1261 us
+IQR = 0.4305 us, LowerFence = 16.4385 us, UpperFence = 18.1604 us
+ConfidenceInterval = [16.9990 us; 17.6326 us] (CI 99.9%), Margin = 0.3168 us (1.83% of Mean)
+Skewness = 0.48, Kurtosis = 2.4
+
+
+Total time: 00:01:02 (62.05 sec)
+
+// * Summary *
+
+BenchmarkDotNet=v0.10.9, OS=Mac OS X 10.12
+Processor=Intel Core i7-5557U CPU 3.10GHz (Broadwell), ProcessorCount=4
+.NET Core SDK=2.0.0
+  [Host]     : .NET Core 2.0.0 (Framework 4.6.00001.0), 64bit RyuJIT DEBUG
+  DefaultJob : .NET Core 2.0.0 (Framework 4.6.00001.0), 64bit RyuJIT
+
+
+          Method |      Mean |     Error |    StdDev |
+---------------- |----------:|----------:|----------:|
+       PlainText |  1.325 us | 0.0205 us | 0.0192 us |
+ EncryptedString | 17.316 us | 0.3168 us | 0.3771 us |
+
+// * Warnings *
+Environment
+  PlainTextVsEncryptedString.PlainText: Default       -> Benchmark was built without optimization enabled (most probably a DEBUG configuration). Please, build it in RELEASE.
+  PlainTextVsEncryptedString.EncryptedString: Default -> Benchmark was built without optimization enabled (most probably a DEBUG configuration). Please, build it in RELEASE.
+
+// * Hints *
+Outliers
+  PlainTextVsEncryptedString.EncryptedString: Default -> 3 outliers were removed
+
+// * Legends *
+  Mean   : Arithmetic mean of all measurements
+  Error  : Half of 99.9% confidence interval
+  StdDev : Standard deviation of all measurements
+  1 us   : 1 Microsecond (0.000001 sec)
+
+// ***** BenchmarkRunner: End *****
+// * Artifacts cleanup *
