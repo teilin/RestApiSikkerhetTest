@@ -6,7 +6,7 @@ using System.Reflection;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 
-namespace RestApi.Security.Resolvers
+namespace RestApi.Security.ValueProvider
 {
     public class EncryptedStringValueProvider : IValueProvider
     {

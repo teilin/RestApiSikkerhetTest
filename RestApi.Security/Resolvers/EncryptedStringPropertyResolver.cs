@@ -6,6 +6,7 @@ using System.Security.Cryptography;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 using RestApi.Security.Attributes;
+using RestApi.Security.ValueProvider;
 
 namespace RestApi.Security.Resolvers
 {
