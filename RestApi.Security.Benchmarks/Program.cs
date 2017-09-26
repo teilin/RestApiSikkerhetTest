@@ -8,7 +8,8 @@ namespace RestApi.Security.Benchmarks
     {
         public static void Main(string[] args)
         {
-            var summary = BenchmarkRunner.Run<PlainTextVsEncryptedString>();
+            var encryptionSummary = BenchmarkRunner.Run<EncryptionBenchmark>();
+            var decryptionSummery = BenchmarkRunner.Run<DecryptionBenchmark>();
         }
     }
 }
