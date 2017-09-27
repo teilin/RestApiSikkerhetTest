@@ -33,10 +33,10 @@ Serialize
 ----
 Deserialize
 ```
-Brukernavn: sys
-Kredittkortnummer: 998877665544332211
-Favorittfarge: Pink
-Password: supersecretpwd
+UserName: sys
+CreditCardNumber: 998877665544332211
+FavoriteColor: Pink
+UserPassword: supersecretpwd
 ```
 
 # Benchmarks
