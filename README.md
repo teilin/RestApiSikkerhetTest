@@ -1,6 +1,6 @@
-# RestApi.Security
+# RestApi.Security.Demo
 
-Biblotek for å kryptere og dekryptere spesifikke properties i modeller.
+Demo / test biblotek for å teste måter å kryptere enkelte properties i modeller i ASP.Net Core REST service.
 
 ## EncryptionKeySample
 
